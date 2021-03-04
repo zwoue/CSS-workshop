@@ -1,0 +1,36 @@
+.header{
+
+}
+
+body{
+  margin:auto;
+  width:50%;
+}
+
+/*
+.ingredients {
+  width: 25%;
+  float: left;
+  padding: 15px;
+}
+*/
+
+/*grid-container*/
+
+
+.instructions {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+/*step and corresponding*/
+.step {
+  float: left;
+  padding: 15px;
+}
+
+.pic {
+  float: left;
+  padding: 15px;
+}
