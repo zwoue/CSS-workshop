@@ -1,36 +1,78 @@
-.header{
-
+.header {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 1vw;
+  position:relative;
 }
 
-body{
-  margin:auto;
+.recipe_title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(153, 102, 0,0.6);
+  letter-spacing: 0.05vw;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  padding: 20px;
+  margin: auto;
   width:50%;
 }
 
-/*
-.ingredients {
-  width: 25%;
-  float: left;
-  padding: 15px;
+h1 {
+  color: Ghostwhite;
+  font-size: 2.5vw;
+  font-weight: bold;
+  line-height: 3vw;
 }
-*/
+
+h2 {
+  color: #DBBD39;
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.5vw;
+}
+
+li {
+  font-size: 1vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.5vw;
+}
 
 /*grid-container*/
-
-
 .instructions {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+  grid-gap: 3vw;
 }
 
 
 /*step and corresponding*/
+/*
 .step {
   float: left;
-  padding: 15px;
+  padding: 20px;
+  height: 180px;
 }
 
 .pic {
   float: left;
   padding: 15px;
+  max-width:100%;
+  max-height:100%;
 }
+*/
